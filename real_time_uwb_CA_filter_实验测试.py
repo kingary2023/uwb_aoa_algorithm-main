@@ -441,10 +441,10 @@ while COM.is_open:
 
         client.publish("vd/line/dis", json.dumps( data_dis ))
         phase_phi= {
-            "1-0":z[0],
-            "2-1":z[1],
-            "3-2":z[2],
-            "0-3":z[3],
+            "1-0":z[0]*180/np.pi,
+            "2-1":z[1]*180/np.pi,
+            "3-2":z[2]*180/np.pi,
+            "0-3":z[3]*180/np.pi,
             # "amu": float(azimuth)*np.pi/180,
             # "eve": np.pi*np.cos(float(elevation)*np.pi/180),
             # "phi":np.pi*np.cos(float(elevation)*np.pi/180)*np.cos(float(azimuth)*np.pi/180+1*np.pi/2)
