@@ -180,7 +180,7 @@ def save_trajectory_data(xy_coords, xz_coords, timestamps):
 
 if __name__ == "__main__":
     # 1. 从日志文件提取数据
-    log_file =  r"C:\Users\24847\Downloads\uwb_aoa_algorithm-main\uwb_aoa_algorithm-main\data\0902\0902_150.log"
+    log_file =  r"C:\Users\24847\Downloads\uwb_aoa_algorithm-main\uwb_aoa_algorithm-main\data\0905\scatter.log"
     xy, xz, timestamps = extract_trajectory_from_log(log_file )
 
     

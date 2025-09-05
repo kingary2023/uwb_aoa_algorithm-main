@@ -60,6 +60,6 @@ def save_phases_to_csv(log_path: str, output_csv: str):
 # 使用示例
 if __name__ == "__main__":
     save_phases_to_csv(
-        log_path= r"C:\Users\24847\Downloads\uwb_aoa_algorithm-main\uwb_aoa_algorithm-main\data\0902\phi_0902_150.log",  # 替换为您的日志文件路径
-        output_csv="0902_150_phase_data.csv"
+        log_path= r"C:\Users\24847\Downloads\uwb_aoa_algorithm-main\uwb_aoa_algorithm-main\data\0905\phi_cali_0905_200.log",  # 替换为您的日志文件路径
+        output_csv="0905_200_phase_cali_data.csv"
     )
